@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name='codigo-avulso-test-tutorial',
+    name='ruppell',
     version='0.0.1',
     url='https://github.com/joorgelm/ruppell',
     license='MIT License',
