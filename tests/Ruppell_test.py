@@ -22,6 +22,11 @@ class TestRuppell(TestCase):
         self.assertIsNotNone(extracted)
         self.assertTrue(10000 <= len(extracted) <= 11000)
 
+    def test_docx_to_string(self):
+        extracted = self.ruppell.docx_to_string(file_path='./data/teste.docx')
+        self.assertIsNotNone(extracted)
+        self.assertTrue(extracted == 'teste')
+
     def test_folder_to_dict(self):
         extracted = self.ruppell.folder_to_dict(folder_path=TestRuppell.TEST_DATA)
         self.assertTrue(type(extracted) == dict)

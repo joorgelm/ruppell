@@ -112,3 +112,4 @@ dmypy.json
 venv/
 /src/teste/
 /.idea/
+/tests/data/out/
