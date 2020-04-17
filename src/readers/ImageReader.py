@@ -5,6 +5,8 @@ from pytesseract import pytesseract
 
 class ImageReader(AbstractReader):
 
+    IMAGE_TYPES = ['jpg', 'jpeg', 'png']
+
     @classmethod
     def load_file(cls, file_path):
         cls.file = Image.open(file_path)
