@@ -6,6 +6,10 @@ import pandas as pd
 import os
 
 
+def setup_language(language: str) -> None:
+    ImageReader.set_language(language)
+
+
 def image_to_string(file_path: str) -> str:
     ImageReader.load_file(file_path)
     return ImageReader.to_string()
