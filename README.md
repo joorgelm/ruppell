@@ -35,6 +35,10 @@ pip install ruppell
 from ruppell import ruppell
 
 
+# Configure your documents language, defaults to eng if not specified!
+ruppell.setup_language(language='documents_lang')
+
+
 # Extract text from pdf
 text = ruppell.pdf_to_string(file_path='file_path.pdf')
 
@@ -60,6 +64,12 @@ dict_out = ruppell.folder_to_dict(folder_path='folder_path')
 ruppell.folder_to_txt(folder_path='folder_path')
 
 ```
+
+All supported languages can be found [here](http://succeed-project.eu/wiki/index.php/Tesseract_3.02#Supported_languages)
+
+The language codes are **ISO 639-2/B** or **ISO 639-2/T**
+
+All languages codes [here](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 
 ## Contributing
 	
