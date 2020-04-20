@@ -20,11 +20,11 @@ setup(
     keywords='ocr text extractor',
     description=u'text extractor based in tesseract ocr',
     install_requires=[
-        'Pillow~=7.0.0',
-        'pytesseract~=0.3.1',
-        'setuptools~=46.1.3',
-        'pdfminer.six~=20200402',
-        'docx2txt~=0.8',
-        'pandas~=1.0.3'
+        'Pillow>=7.0.0',
+        'pytesseract>=0.3.1',
+        'setuptools>=46.1.3',
+        'pdfminer.six>=20200402',
+        'docx2txt>=0.8',
+        'pandas>=1.0.3'
     ],
 )
