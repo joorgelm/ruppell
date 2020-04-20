@@ -65,11 +65,11 @@ ruppell.folder_to_txt(folder_path='folder_path')
 
 ```
 
-All supported languages can be found [here](http://succeed-project.eu/wiki/index.php/Tesseract_3.02#Supported_languages)
+All supported languages can be found [here](http://succeed-project.eu/wiki/index.php/Tesseract_3.02#Supported_languages).
 
-The language codes are **ISO 639-2/B** or **ISO 639-2/T**
+The language codes are **ISO 639-2/B** or **ISO 639-2/T**.
 
-All languages codes [here](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
+All languages codes [here](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).
 
 ## Contributing
 	
