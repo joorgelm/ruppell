@@ -15,18 +15,18 @@ Here are just a few of the things that ruppell does well:
 ## Where to get it
 
 Binary installers for the latest released version are available at the [Python
-package index](https://).
+package index](https://pypi.org/project/ruppell/).
 
 ```sh
 pip install ruppell
 ```
 
 ## Dependencies
-- [pillow](https://github.com/python-pillow/Pillow)
-- [pytesseract](https://github.com/madmaze/pytesseract)
-- [pdfminer.six](https://github.com/pdfminer/pdfminer.six)
-- [docx2txt](https://github.com/ankushshah89/python-docx2txt)
-- [pandas](https://github.com/pandas-dev/pandas)
+- [Pillow](https://github.com/python-pillow/Pillow)
+- [Pytesseract](https://github.com/madmaze/pytesseract)
+- [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)
+- [Docx2txt](https://github.com/ankushshah89/python-docx2txt)
+- [Pandas](https://github.com/pandas-dev/pandas)
 - Python >= 3.6
 
 ## How to use
