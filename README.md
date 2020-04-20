@@ -22,7 +22,7 @@ pip install ruppell
 ```
 
 ## Dependencies
-- [Pillow](https://github.com/python-pillow/Pillow)
+- [pillow](https://github.com/python-pillow/Pillow)
 - [pytesseract](https://github.com/madmaze/pytesseract)
 - [pdfminer.six](https://github.com/pdfminer/pdfminer.six)
 - [docx2txt](https://github.com/ankushshah89/python-docx2txt)
