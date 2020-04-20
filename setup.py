@@ -11,9 +11,9 @@ DESCRIPTION = "Ruppell is a Python package to help in text extraction from docum
 
 setup(
     name=PACKAGE_NAME,
-    version='0.0.1',
+    version='0.0.2',
     url='https://github.com/joorgelm/ruppell',
-    download_url='https://github.com/joorgelm/ruppell/archive/0.0.1.tar.gz',
+    download_url='https://github.com/joorgelm/ruppell/archive/0.0.2.tar.gz',
     packages=[PACKAGE_NAME],
     package_dir={PACKAGE_NAME: PACKAGE_DIR},
     license='MIT License',

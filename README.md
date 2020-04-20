@@ -2,15 +2,15 @@
 
 ## What is it?
 
-**Ruppell** is a Python package to help in text extraction from documents.
+**Ruppell** is a Python package to help in documents' text extraction.
 
 ## Main Features
 Here are just a few of the things that ruppell does well:
 
   - Create datasets from multiple files.
-  - Extract text from documents (pdf, docx, jpeg, jpg, png).
-  - Create Pandas dataframe from folder of documents.
-  - Create datasets from documents to .txt files.
+  - Extract documents' text (pdf, docx, jpeg, jpg, png).
+  - Create Pandas dataframe from documents' folder.
+  - Convert documents to .txt files
 
 ## Where to get it
 
