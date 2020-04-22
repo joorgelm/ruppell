@@ -1,5 +1,5 @@
 from unittest import TestCase
-from src import ruppell
+import ruppell
 import pandas as pd
 import os
 

@@ -110,6 +110,7 @@ dmypy.json
 # End of https://www.gitignore.io/api/python
 
 venv/
-/src/teste/
+/teste/
 /.idea/
 /tests/data/out/
+/teste/

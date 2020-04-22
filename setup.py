@@ -14,7 +14,6 @@ setup(
     version='0.0.3',
     url='https://github.com/joorgelm/ruppell',
     # download_url='https://github.com/joorgelm/ruppell/archive/0.0.3.tar.gz',
-    package_dir={'': 'src'},
     packages=[''],
     license='MIT License',
     author='Jorge Melgarejo',
