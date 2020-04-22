@@ -6,7 +6,6 @@ with open("README.md", "r") as fh:
 
 PACKAGE_NAME = 'ruppell'
 PACKAGE_DIR = 'src'
-# PY_MODULES = ['ImageReader', 'PdfReader', 'DocxReader', 'utils']
 
 DESCRIPTION = "Ruppell is a Python package to help in text extraction from documents."
 
