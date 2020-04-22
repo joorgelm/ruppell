@@ -1,7 +1,7 @@
-from .readers.ImageReader import ImageReader
-from .readers.PdfReader import PdfReader
-from .readers.DocxReader import DocxReader
-from .utils import utils
+from src.readers.ImageReader import ImageReader
+from src.readers.PdfReader import PdfReader
+from src.readers.DocxReader import DocxReader
+from src.utils import utils
 import pandas as pd
 import os
 
