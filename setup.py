@@ -11,7 +11,7 @@ PACKAGE_DIR = 'src'
 DESCRIPTION = "Ruppell is a Python package to help in text extraction from documents."
 
 setup(
-    name=PACKAGE_NAME,
+    name='ruppell',
     version='0.0.3',
     url='https://github.com/joorgelm/ruppell',
     download_url='https://github.com/joorgelm/ruppell/archive/0.0.3.tar.gz',
