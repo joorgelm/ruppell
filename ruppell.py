@@ -1,6 +1,6 @@
-from readers import ImageReader
-from readers import PdfReader
-from readers import DocxReader
+from readers.ImageReader import ImageReader
+from readers.PdfReader import PdfReader
+from readers.DocxReader import DocxReader
 from utils import utils
 import pandas as pd
 import os

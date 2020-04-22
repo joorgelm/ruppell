@@ -1,5 +1,5 @@
 from unittest import TestCase
-from readers import DocxReader
+from readers.DocxReader import DocxReader
 
 
 class TestDocxReader(TestCase):

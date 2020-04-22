@@ -1,5 +1,5 @@
 from unittest import TestCase
-from readers import ImageReader
+from readers.ImageReader import ImageReader
 
 
 class TestImageReader(TestCase):

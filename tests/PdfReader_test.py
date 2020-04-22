@@ -1,5 +1,5 @@
 from unittest import TestCase
-from readers import PdfReader
+from readers.PdfReader import PdfReader
 
 
 class TestPdfReader(TestCase):
