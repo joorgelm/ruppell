@@ -4,7 +4,7 @@ from distutils.core import setup
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-PACKAGE_NAME = ''
+PACKAGE_NAME = 'ruppell'
 PACKAGE_DIR = 'src'
 # PY_MODULES = ['ImageReader', 'PdfReader', 'DocxReader', 'utils']
 
@@ -15,9 +15,7 @@ setup(
     version='0.0.3',
     url='https://github.com/joorgelm/ruppell',
     download_url='https://github.com/joorgelm/ruppell/archive/0.0.3.tar.gz',
-    packages=[PACKAGE_NAME],
-    # package_dir={PACKAGE_NAME: PACKAGE_DIR},
-    # py_modules=PY_MODULES,
+    py_modules=['ruppell'],
     license='MIT License',
     author='Jorge Melgarejo',
     author_email='melgarejo.colarte@gmail.com',
