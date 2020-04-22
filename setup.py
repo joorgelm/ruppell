@@ -14,7 +14,7 @@ setup(
     name='ruppell',
     version='0.0.3',
     url='https://github.com/joorgelm/ruppell',
-    download_url='https://github.com/joorgelm/ruppell/archive/0.0.3.tar.gz',
+    # download_url='https://github.com/joorgelm/ruppell/archive/0.0.3.tar.gz',
     py_modules=['ruppell'],
     license='MIT License',
     author='Jorge Melgarejo',
