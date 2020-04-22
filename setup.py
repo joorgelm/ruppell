@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 PACKAGE_NAME = 'ruppell'
 PACKAGES = ['', 'readers', 'utils']
-VERSION = '0.0.4'
+VERSION = '0.0.5'
 DESCRIPTION = "Ruppell is a Python package to help in text extraction from documents."
 
 setup(
