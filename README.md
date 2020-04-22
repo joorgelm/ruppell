@@ -32,7 +32,7 @@ pip install ruppell
 ## How to use
 
 ```python
-from ruppell import ruppell
+import ruppell
 
 
 # Configure your documents language, defaults to eng if not specified!
