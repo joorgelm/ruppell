@@ -11,3 +11,4 @@ class PdfReader(AbstractReader):
     @classmethod
     def to_string(cls):
         return high_level.extract_text(pdf_file=cls.file)
+

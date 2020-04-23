@@ -45,3 +45,4 @@ class TestRuppell(TestCase):
     def test_folder_to_dataframe(self):
         extracted = self.ruppell.folder_to_dataframe(folder_path=TestRuppell.TEST_DATA)
         self.assertTrue(type(extracted) == pd.DataFrame)
+

@@ -19,3 +19,4 @@ def to_txt(text_raw: str, file_name: str, out_path: str):
     with open(f'{out_path}/{file_name}.txt', "w") as output:
         output.write(text_raw)
         output.close()
+
