@@ -3,6 +3,8 @@ from readers.PdfReader import PdfReader
 from readers.DocxReader import DocxReader
 from utils import utils
 import pandas as pd
+import calendar
+import time
 import os
 
 
@@ -29,10 +31,6 @@ def folder_to_dict(folder_path: str) -> dict:
 
     out_dict = {'file_name': [], 'text_raw': []}
 
-    out_path = f'{folder_path}/out/'
-
-    utils.create_folder(out_path)
-
     for file in os.listdir(folder_path):
 
         file_extension = utils.get_extension_file(file)
@@ -57,11 +55,13 @@ def folder_to_dict(folder_path: str) -> dict:
     return out_dict
 
 
-def folder_to_txt(folder_path: str) -> None:
+def folder_to_txt(folder_path: str) -> str:
 
     dict_raw = folder_to_dict(folder_path)
 
-    out_path = f'{folder_path}/out/'
+    now = calendar.timegm(time.gmtime())
+
+    out_path = f'{folder_path}/out_{now}/'
 
     utils.create_folder(out_path)
 
@@ -70,6 +70,8 @@ def folder_to_txt(folder_path: str) -> None:
         utils.to_txt(text_raw=text_raw, file_name=file, out_path=out_path)
 
     print(f'The results are in {out_path}')
+
+    return out_path
 
 
 def folder_to_dataframe(folder_path: str) -> pd.DataFrame:

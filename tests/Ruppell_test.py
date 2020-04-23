@@ -32,14 +32,13 @@ class TestRuppell(TestCase):
         self.assertTrue(type(extracted) == dict)
 
     def test_folter_to_txt(self):
-        folder_path = TestRuppell.TEST_DATA
-        out_path = f'{folder_path}/out/'
 
-        self.ruppell.folder_to_txt(folder_path=folder_path)
+        out_path = self.ruppell.folder_to_txt(folder_path=TestRuppell.TEST_DATA)
 
         self.assertTrue(os.path.isdir(out_path))
 
         number_of_files = len(os.listdir(out_path))
+
         self.assertTrue(number_of_files > 0)
 
     def test_folder_to_dataframe(self):

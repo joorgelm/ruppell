@@ -60,8 +60,8 @@ dict_out = ruppell.folder_to_dict(folder_path='folder_path')
 
 
 # Create .txt files from documents folder
-# A folder ./out will created in the same path of folder_path
-ruppell.folder_to_txt(folder_path='folder_path')
+# A folder ./out_{now_in_timestamp} will created in the same path of folder_path
+path_to_out = ruppell.folder_to_txt(folder_path='folder_path')
 
 ```
 
