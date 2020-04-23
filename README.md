@@ -65,6 +65,16 @@ ruppell.folder_to_txt(folder_path='folder_path')
 
 ```
 
+## Example
+
+```
+>>> import ruppell
+>>> ruppell.image_to_string('image.png')
+'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer id bibendum sapien.'
+```
+
+## Supported Languages
+
 All supported languages can be found [here](http://succeed-project.eu/wiki/index.php/Tesseract_3.02#Supported_languages).
 
 The language codes are **ISO 639-2/B** or **ISO 639-2/T**.
