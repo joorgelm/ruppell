@@ -36,7 +36,7 @@ import ruppell
 
 
 # Configure your documents language, defaults to eng if not specified!
-ruppell.setup_language(language='documents_lang')
+ruppell.setup_language(language='eng')
 
 
 # Extract text from pdf
