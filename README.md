@@ -75,8 +75,6 @@ path_to_out = ruppell.folder_to_txt(folder_path='folder_path')
 
 ## Supported Languages
 
-All supported languages can be found [here](http://succeed-project.eu/wiki/index.php/Tesseract_3.02#Supported_languages).
-
 The language codes are **ISO 639-2/B** or **ISO 639-2/T**.
 
 All languages codes [here](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).
