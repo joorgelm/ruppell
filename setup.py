@@ -20,7 +20,7 @@ setup(
     author='Jorge Melgarejo',
     author_email='melgarejo.colarte@gmail.com',
     keywords='ocr text extractor',
-    headers=['Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM'],
+    long_description_content_type='text/markdown',
     description=DESCRIPTION,
     long_description=long_description,
     install_requires=[
