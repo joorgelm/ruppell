@@ -21,12 +21,10 @@ package index](https://pypi.org/project/ruppell/).
 pip install ruppell
 ```
 
-## Dependencies
-- [Pillow](https://github.com/python-pillow/Pillow)
-- [Pytesseract](https://github.com/madmaze/pytesseract)
-- [Pdfminer.six](https://github.com/pdfminer/pdfminer.six)
-- [Docx2txt](https://github.com/ankushshah89/python-docx2txt)
-- [Pandas](https://github.com/pandas-dev/pandas)
+## Requisites
+To run Ruppell you need
+
+- [Tesseract OCR](https://tesseract-ocr.github.io/tessdoc/Installation.html)
 - Python >= 3.6
 
 ## How to use
