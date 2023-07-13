@@ -20,7 +20,9 @@ setup(
     author='Jorge Melgarejo',
     author_email='melgarejo.colarte@gmail.com',
     keywords='ocr text extractor',
-    description=u'text extractor based in tesseract ocr',
+    headers=['Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM'],
+    description=DESCRIPTION,
+    long_description=long_description,
     install_requires=[
         'Pillow~=10.0.0',
         'pytesseract~=0.3.10',
