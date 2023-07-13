@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from setuptools import setup
 
-with open("README.md", "r") as fh:
+with open("DESCRIPTION.md", "r") as fh:
     long_description = fh.read()
 
 PACKAGE_NAME = 'ruppell'
