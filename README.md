@@ -2,7 +2,9 @@
 
 ## What is it?
 
-**Ruppell** is a Python package to help in documents' text extraction.
+**Ruppell** is a Python wrapper to help in documents' text extraction.
+
+![](./assets/ruppell.gif)
 
 ## Main Features
 Here are just a few of the things that ruppell does well:
@@ -14,8 +16,7 @@ Here are just a few of the things that ruppell does well:
 
 ## Where to get it
 
-Binary installers for the latest released version are available at the [Python
-package index](https://pypi.org/project/ruppell/).
+Binary installers for the latest released version are available at the [Pypi](https://pypi.org/project/ruppell/).
 
 ```sh
 pip install ruppell
