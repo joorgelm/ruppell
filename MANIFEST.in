@@ -2,4 +2,4 @@ include LICENSE
 include *.txt
 include *.md
 include *.py
-include /assets/*
+include *.gif
